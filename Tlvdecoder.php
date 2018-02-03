@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: home
- * Date: 2/2/2018
- * Time: 10:44 AM
- */
+
 
 class Tlvdecoder
 {
