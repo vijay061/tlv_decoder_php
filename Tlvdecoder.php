@@ -38,7 +38,11 @@ class Tlvdecoder
 
     private function getValueLength($str, $tmp)
     {
-        return substr($str, $tmp, 2);
+         $tagValLen= substr($str, $tmp, 2);
+        if(is_numeric($tagValLen)) {
+            return $tagValLen;
+        }
+        return ;
     }
 
 }
